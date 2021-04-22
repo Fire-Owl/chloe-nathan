@@ -1,15 +1,9 @@
-<?php include 'includes/header.php'; ?>
+<?php include '../includes/header.php'; ?>
 
 
 <main class="mt-5">
 
     <div class="container my-5">
-
-                <a href="/projet-binome/pages/graphiste.php">Graphiste</a>
-                <a href="/projet-binome/pages/chef-projet.php">cdp</a>
-                <a href="/projet-binome/pages/motion-designer.php">cdp</a>
-                <a href="/projet-binome/pages/pentesteur.php">cdp</a>
-                <a href="/projet-binome/pages/web-designer.php">cdp</a>
 
                 <img src="/projet-binome/assets/images/pictures/graphiste-1.png" alt="" class="mx-auto d-block img-fluid" >
          
@@ -77,4 +71,4 @@
         </div>
 </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
