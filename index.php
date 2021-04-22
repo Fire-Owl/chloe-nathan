@@ -14,10 +14,10 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
         <li class="nav-item coeurweb-underline">
-          <a class="nav-link active" aria-current="page" href="#">Menu</a>
+        <a href="#" class="btn btnPlay btn-success ml-2">Menu</a>
         </li>
         <li class="nav-item coeurweb-underline">
-          <a class="nav-link" href="pages/legal-notice.php">A propos</a>
+        <button type="button" class="btn btn-primary">A propos</button>
         </li>
       </ul>
       <span class="navbar-text">
@@ -25,6 +25,37 @@
     </div>
   </div>
 </nav>
+<div class="card" class="menu2">
+  <div class="menu2">
+    <p class="card-text"><ul class="text2 mb-0">
+<li>
+<a href="#!" class="text3 text-decoration-none">Web designer , qu’est ce que c’est ?</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+</svg>
+</li>
+<li>
+<a href="#!" class="text3 text-decoration-none">Qu’est-ce que le métier de chef de projet ?</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+</svg>
+</li>
+<li>
+<a href="#!" class="text3 text-decoration-none">Graphiste, un métier créatif</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+</svg>
+</li>
+<li>
+<a href="#!" class="text3 text-decoration-none">Mission de l’animateur graphique (motion designer web)</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+</svg>
+</li>
+<li>
+<a href="#!" class="text3 text-decoration-none">Le Pentesteur, Le Corsaire des Hackers</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+</svg>
+</li>
+</ul></p>
+  </div>
+</div>
 <!--endnav bar-->
 <!--startintro-->
 <div class="row pt-5">
@@ -115,5 +146,7 @@
 <!--endchoice-->
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="main.js"></script>
 </main>
 <?php include 'include/footer.php'; ?>
