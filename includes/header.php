@@ -15,7 +15,7 @@
     
     
 <div class="py-5  text-center">
-  <img class="d-block mx-auto mb-4" src="/projet-binome/assets/images/icons/logo.svg" alt="" >
+  <img class="d-block mx-auto mb-4" src="../assets/images/pictures/main/logo.svg" alt="" >
 </div>
 
 <ul class="nav d-flex justify-content-center my-5">

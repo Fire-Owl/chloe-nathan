@@ -6,7 +6,7 @@
 
     <div class="container my-5">
 
-                <img src="/projet-binome/assets/images/pictures/webdesigner.png" alt="" class="mx-auto d-block img-fluid" >
+                <img src="../assets/images/pictures/webdesigner.png" alt="" class="mx-auto d-block img-fluid" >
          
                  <h1 class="fw-bolder text-center my-5">Web designer , qu’est ce que c’est ?</h1>
 
