@@ -5,10 +5,13 @@
 
     <div class="container my-5">
 
-                <img src="/projet-binome/assets/images/pictures/chef-projet-1.png" alt="" class="mx-auto d-block img-fluid" >
-         
-                
+                <a href="index.php" class="link-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                </svg>
+                </a>
 
+                <img src="/projet-binome/assets/images/pictures/chef-projet-1.png" alt="" class="mx-auto d-block img-fluid" >
                 
                  <p class="my-5">Le chef de projet a pour mission principale de prendre en main le cahier des charges d’un projet et de le mettre en œuvre en analysant les besoins, réalisant des reportings… Le travail en équipe est primordial pour ce professionnel. En effet, le directeur de projet est en relation avec les différents employés d’une entreprise (graphistes, assistants-chefs de projet, chefs de produit, développeurs web, intégrateurs…) il est amené a leur confie des missions pour mener à bien le projet.</p>
                 

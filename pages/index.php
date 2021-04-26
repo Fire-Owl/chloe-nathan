@@ -29,27 +29,27 @@
   <div class="menu2">
     <p class="card-text"><ul class="text2 mb-0">
 <li>
-<a href="pages/web-designer.php" class="text3 text-decoration-none">Web designer , qu’est ce que c’est ?</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+<a href="web-designer.php" class="text3 text-decoration-none">Web designer , qu’est ce que c’est ?</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
 <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
 </svg>
 </li>
 <li>
-<a href="#!" class="text3 text-decoration-none">Qu’est-ce que le métier de chef de projet ?</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+<a href="chef-projet.php" class="text3 text-decoration-none">Qu’est-ce que le métier de chef de projet ?</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
 <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
 </svg>
 </li>
 <li>
-<a href="#!" class="text3 text-decoration-none">Graphiste, un métier créatif</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+<a href="graphiste.php" class="text3 text-decoration-none">Graphiste, un métier créatif</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
 <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
 </svg>
 </li>
 <li>
-<a href="#!" class="text3 text-decoration-none">Mission de l’animateur graphique (motion designer web)</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+<a href="motion-designer.php" class="text3 text-decoration-none">Mission de l’animateur graphique (motion designer web)</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
 <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
 </svg>
 </li>
 <li>
-<a href="#!" class="text3 text-decoration-none">Le Pentesteur, Le Corsaire des Hackers</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+<a href="pentesteur.php" class="text3 text-decoration-none">Le Pentesteur, Le Corsaire des Hackers</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
 <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
 </svg>
 </li>
