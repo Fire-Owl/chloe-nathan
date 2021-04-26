@@ -1,0 +1,39 @@
+@font-face {
+        font-family: 'MyriadPro';
+        src: url('/projet-binome/assets/fonts/MYRIADPRO-REGULAR.woff');
+}
+
+body {
+    font-family: "MyriadPro", sans-serif;
+    color: black;
+} 
+
+.menu{
+    margin : 0 25% 0 0;
+}
+
+.a-propos{
+    margin : 0 0 0 25%;
+}
+
+main{
+    margin-bottom: 20%;
+}
+
+footer{
+    background-color:#00B4F5;
+}
+
+.text1{
+    color: white;
+}
+
+.text2{
+    list-style-position: inside;
+    color: white;
+    }
+
+    
+
+
+    
