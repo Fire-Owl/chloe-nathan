@@ -1,7 +1,7 @@
-<?php include 'chloe-nathan/include/header.php'; ?>
+<?php include '../include/header.php'; ?>
 <main class="container-acc">
 <div class="d-flex justify-content-center">
-<img src="chloe-nathan/assets/images/logo.svg" class="logopage" alt="..."> 
+<img src="../assets/images/logo.svg" class="logopage" alt="..."> 
 </div>
 <div class="row pt-5">
 
@@ -194,4 +194,4 @@ Droit d’auteurs:
 
 
  </main>
-<?php include 'include/footer.php'; ?>
+<?php include '../include/footer.php'; ?>
