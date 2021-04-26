@@ -1,3 +1,4 @@
+
 @font-face {
         font-family: 'MyriadPro';
         src: url('/projet-binome/assets/fonts/MYRIADPRO-REGULAR.woff');
@@ -35,5 +36,91 @@ footer{
 
     
 
+.imagetext{
+    width: 500px;
+}
+.motiondesignmini{
+    width: 180px;
+}
+.graphiste1{
+    width: 180px;
+}
+.pentesteurminia{
+    width: 180px;
+}
+.nav-link{
+    color:rgba(0, 180, 245, 1) ;
+    margin-top: 20px;
+}
 
-    
+.Coeurwebtitle{
+    font-size: 4.3rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}
+
+.logoipsum-btn-purple, .logoipsum-btn-purple:hover{
+    background-color: #00B4F5;
+    color:white;
+    border-color: #00B4F5;
+    width: 220px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.coeurweb-underline:hover{
+    text-decoration: underline #EC6258 ;
+}
+
+.container3{
+    text-align: center;
+}
+.tittle1{
+    color:#EC6258;
+}
+
+.text{
+    color:#EC6258;
+    font-weight: bold;
+    font-size: 5rem;
+
+}
+.footercolor{
+    background-color:#00B4F5 ;
+}
+
+.logopage{
+    width: 200px;
+}
+.footercolor{
+    background-color:#00B4F5 ;
+    }
+    .text1{
+    color: white;
+    }
+    .text2{
+    list-style-position: inside;
+    color: white;
+    }
+    .logopage{
+    width: 200px;
+    }
+
+.card{
+    background-color:#00B4F5;
+    border-color: #00B4F5;
+}
+.text3{
+    color: white;
+}
+.btnPlay, .btn2{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    border-color: white;
+    color: #EC6258;
+    margin-left: 20px;  
+}
+.btnPlay:hover, .btn2:hover{
+    background-color:#EC6258;
+    border-color:#EC6258 ;
+}
+
