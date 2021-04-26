@@ -1,9 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 @font-face {
-        font-family: 'DMSans-bold';
-        src: url('DMSans-Bold.ttf');
+        font-family: 'MyriadPro';
+        src: url('/projet-binome/assets/fonts/MYRIADPRO-REGULAR.woff');
 }
+
+body {
+    font-family: "MyriadPro", sans-serif;
+    color: black;
+} 
+
+.menu{
+    margin : 0 25% 0 0;
+}
+
+.a-propos{
+    margin : 0 0 0 25%;
+}
+
+main{
+    margin-bottom: 20%;
+}
+
+footer{
+    background-color:#00B4F5;
+}
+
+.text1{
+    color: white;
+}
+
+.text2{
+    list-style-position: inside;
+    color: white;
+    }
+
+    
 
 .imagetext{
     width: 500px;
@@ -92,3 +123,4 @@
     background-color:#EC6258;
     border-color:#EC6258 ;
 }
+
