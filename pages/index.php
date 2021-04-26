@@ -1,8 +1,9 @@
-<?php include '../includes/header.php'; ?>
+<?php include '../include/header.php'; ?>
 
 <main class="container-acc">
 <div class="d-flex justify-content-center">
-<img src="assets/images/pictures/logo.svg" class="logopage" alt="..."> 
+<img src="../assets/images/logo.svg" class="logopage" alt="..."> 
+
 </div>
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
@@ -17,7 +18,10 @@
         <a href="#" class="btn btnPlay btn-success ml-2">Menu</a>
         </li>
         <li class="nav-item coeurweb-underline">
-        <button type="button" class="btn btn-primary">A propos</button>
+
+
+        <a href="legal-notice.php" class="btn btn2 btn-primary">A propos</a>
+
         </li>
       </ul>
       <span class="navbar-text">
@@ -25,35 +29,39 @@
     </div>
   </div>
 </nav>
-<div class="card" class="menu2">
+
+
+<div class="card">
   <div class="menu2">
     <p class="card-text"><ul class="text2 mb-0">
-<li>
-<a href="web-designer.php" class="text3 text-decoration-none">Web designer , qu’est ce que c’est ?</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-</svg>
-</li>
-<li>
-<a href="chef-projet.php" class="text3 text-decoration-none">Qu’est-ce que le métier de chef de projet ?</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-</svg>
-</li>
-<li>
-<a href="graphiste.php" class="text3 text-decoration-none">Graphiste, un métier créatif</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-</svg>
-</li>
-<li>
-<a href="motion-designer.php" class="text3 text-decoration-none">Mission de l’animateur graphique (motion designer web)</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-</svg>
-</li>
-<li>
-<a href="pentesteur.php" class="text3 text-decoration-none">Le Pentesteur, Le Corsaire des Hackers</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-<path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-</svg>
-</li>
-</ul></p>
+    <li>
+      <a href="#!" class="text3 text-decoration-none">Web designer , qu’est ce que c’est ?</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+      </svg>
+    </li>
+    <li>
+      <a href="#!" class="text3 text-decoration-none">Qu’est-ce que le métier de chef de projet ?</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+      </svg>
+    </li>
+    <li>
+      <a href="#!" class="text3 text-decoration-none">Graphiste, un métier créatif</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+      </svg>
+    </li>
+    <li>
+      <a href="#!" class="text3 text-decoration-none">Mission de l’animateur graphique (motion designer web)</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+      </svg>
+    </li>
+    <li>
+      <a href="#!" class="text3 text-decoration-none">Le Pentesteur, Le Corsaire des Hackers</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+      </svg>
+      </li>
+    </ul>
+    </p>
+
   </div>
 </div>
 <!--endnav bar-->
@@ -71,7 +79,10 @@
 </div>
 <div class="col-md-1 col-sm-0"></div>
 <div class="col-md-6 col-sm-12 order-md-2 order-sm-1">
-    <img src="assets/images/Lost.svg" class ="imagetext">
+
+
+    <img src="../assets/images/Lost.svg" class ="imagetext">
+
 </div>
 
 </div>
@@ -82,7 +93,10 @@
 
 <div class="col-md-1 col-sm-0"></div>
 <div class="col-md-6 col-sm-12 order-md-1 order-sm-1">
-    <img src="assets/images/Websdesigner.svg" class ="imagetext">
+
+
+    <img src="../assets/images/Websdesigner.svg" class ="imagetext">
+
 </div>
 
 <div class="col-md-5 col-sm-12 order-md-2 order-sm-2">
@@ -118,7 +132,10 @@
 </div>
 <div class="col-md-1 col-sm-0"></div>
 <div class="col-md-6 col-sm-12 order-md-2 order-sm-1">
-    <img src="assets/images/chefdeprojet.svg" class ="imagetext">
+
+
+    <img src="../assets/images/chefdeprojet.svg" class ="imagetext">
+
 </div>
 
 </div>
@@ -129,15 +146,18 @@
 <div class="container3">
      <div class="row align-items-start">
           <div class="col">
-             <img src="assets/images/motiondesignmini.svg" class="motiondesignmini" alt="...">
+
+
+             <img src="../assets/images/motiondesignmini.svg" class="motiondesignmini" alt="...">
              <h5 class="tittle1"><b>Motion designer web</b></h5>
          </div>
           <div class="col">
-             <img src="assets/images/graphiste1.svg" class="graphiste1" alt="...">
+             <img src="../assets/images/graphiste1.svg" class="graphiste1" alt="...">
              <h5 class="tittle1"><b>Graphiste, un métier créatif</b></h5>
          </div>
           <div class="col">
-             <img src="assets/images/pentesteurminia.svg" class="pentesteurminia" alt="...">
+             <img src="../assets/images/pentesteurminia.svg" class="pentesteurminia" alt="...">
+
              <h5 class="tittle1"><b>Le Pentesteur</b></h5>
          </div>
       </div>
@@ -147,5 +167,9 @@
 
 
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="../assets/scripts/main.js"></script>
 </main>
-<?php include '../includes/footer.php'; ?>
+<?php include '../include/footer.php'; ?>
+
