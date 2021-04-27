@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="../assets/styles/main.css">
     <link rel="shortcut icon" href="../assets/images/logonotittle.svg" type="image/svg+xml">
     <title>Coeurweb</title>
+
 </head>
 <body>
+
+<main class="container-acc">
+<div class="d-flex justify-content-center">
+<img src="../assets/images/logo.svg" class="logopage" alt="..."> 
+</div>
     

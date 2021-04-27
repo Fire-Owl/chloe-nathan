@@ -1,4 +1,4 @@
-<?php include '../includes/header.php'; ?>
+<?php include '../include/header.php'; ?>
 
 <main class="mt-5">
 
@@ -10,7 +10,7 @@
                 </svg>
                 </a>
 
-        <img src="/projet-binome/assets/images/pictures/graphiste-1.png" alt="" class="mx-auto d-block img-fluid" >
+        <img src="../assets/images/pictures/graphiste-1.png" alt="" class="mx-auto d-block img-fluid" >
  
         <h1 class=" text-center my-5">Qu’est-ce qu’un Graphiste?</h1>
         <p class="my-5">Le graphiste est un spécialiste de la communication, il élabore l’univers graphique d’un produit, d’une entreprise, et lui donne uneidentité visuelle.</p>
@@ -32,7 +32,7 @@
         <p class="my-5">[ Petite interlude: Le crayon et le papier jouent toujours un rôle très important, surtout en brainstorming. Ils nous permettent de pouvoir laisser notre  créativité s’exprimé, de travailler dans n’importe quelle condition comme la réactivité lorsque l’inspiration survient, ou tout ce qui nous entoure devient source d’inspiration, et pas besoin de craindre la panne de batterie ou tout autre problème technique. Le fait de ne pas être distrait par les réseaux sociaux est un plus avec le papier, car il ne voue enverra jamais une notification pour vous prévenir. Et enfin , pour trouver votre propre source d’inspiration, vous devez vous documenter. Vous suivez forcément les dernières tendances, les avancées dans votre secteur, les types de design qui ont du succès, les inventions des uns et des autres… .Pourtant, au moment de vous pencher sur un nouveau projet, vous devez réussir à garder tout cela dans l’arrière-plan de votre cerveau. Attention!! Le danger encouru, à trop vous renseigner sur les travaux des autres, c’est de vous laisser phagocyter par eux. Inconsciemment, vous les laissez vous influencer, et cela d’autant plus qu’il vous suffit d’un clic de souris pour les visionner au beau milieu de votre propre création. Un cahier de dessin vous affranchit de cette tentation et vous aide à rester original. ]</p>
 
 
-        <img src="/projet-binome/assets/images/pictures/graphiste-2.png" alt="" class="mx-auto d-block img-fluid" >
+        <img src="../assets/images/pictures/graphiste-2.png" alt="" class="mx-auto d-block img-fluid" >
         <h2 class="fw-bolder my-5">Les sept étapes de réalisations d’un projet.</h2>
         <p class="my-5">Afin de s’acquitter de ses tâches, le graphiste a besoin d’un plan, et avoir un contrôle sur l’aspect créatif pour éviter qu’ilspartent dans tous les sens. La collecte d’informations tient une place aussi très importante, la prise de note et de renseignements sont nécessaires à la bonne marche. La préparation d’une version préliminaire, qui donne un aperçu final. La présentation d’une proposition au client, comprenant les clauses du contrat. la reflexion créatif, autonome ou collectif, pour générer des idées. La production manuelle de croquis. La conception du projet. L’étape finale: Les ajustements suite aux commentaires et retours des clients. Travailler dans ce domaine, il faut soit passer plusieurs diplômes, soit ce former.</p>
         
@@ -53,4 +53,4 @@
         </div>
 </main>
 
-<?php include '../includes/footer.php'; ?>
+<?php include '../include/footer.php'; ?>

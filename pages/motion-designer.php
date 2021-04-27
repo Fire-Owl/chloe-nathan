@@ -1,4 +1,4 @@
-<?php include '../includes/header.php'; ?>
+<?php include '../include/header.php'; ?>
 
 
 <main class="mt-5">
@@ -11,7 +11,7 @@
                 </svg>
                 </a>
 
-                <img src="/projet-binome/assets/images/pictures/motiondesigner-1.png" alt="" class="mx-auto d-block img-fluid" >
+                <img src="../assets/images/pictures/motiondesigner-1.png" alt="" class="mx-auto d-block img-fluid" >
          
                 
                 <h1 class="fw-bolder text-center my-5">Le rôle la perspective du motion designer :</h1>
@@ -62,4 +62,4 @@ Outils de prédilection : logiciel de montage et de création vidéo, fx, css3 h
         </div>
 </main>
 
-<?php include '../includes/footer.php'; ?>
+<?php include '../include/footer.php'; ?>

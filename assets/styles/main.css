@@ -13,14 +13,6 @@ body {
     margin : 0 25% 0 0;
 }
 
-.a-propos{
-    margin : 0 0 0 25%;
-}
-
-main{
-    margin-bottom: 20%;
-}
-
 footer{
     background-color:#00B4F5;
 }
@@ -123,4 +115,8 @@ footer{
     background-color:#EC6258;
     border-color:#EC6258 ;
 }
-
+.error{
+    height:auto;
+    width: auto;
+    
+}

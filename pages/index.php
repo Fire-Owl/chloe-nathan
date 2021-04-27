@@ -1,69 +1,96 @@
 <?php include '../include/header.php'; ?>
+<style>
+body {
+  font-family: 'Lato', sans-serif;
+}
 
-<main class="container-acc">
-<div class="d-flex justify-content-center">
-<img src="../assets/images/logo.svg" class="logopage" alt="..."> 
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
 
-</div>
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-    </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
-        <li class="nav-item coeurweb-underline">
-        <a href="#" class="btn btnPlay btn-success ml-2">Menu</a>
-        </li>
-        <li class="nav-item coeurweb-underline">
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: start;
+  margin-top: 30px;
+}
 
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
 
-        <a href="legal-notice.php" class="btn btn2 btn-primary">A propos</a>
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
 
-        </li>
-      </ul>
-      <span class="navbar-text">
-      </span>
-    </div>
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="web-designer.php">Web designer, qu'est ce que c'est ? </a>
+    <a href="chef-projet.php">Q'est-ce que le metier de chef de projet ? </a>
+    <a href="graphiste.php">Graphiste, un métier créatif</a>
+    <a href="motion-designer.php">Mission de l'animateur graphique ( motion designer web)</a>
+    <a href="pentesteur.php">Le pentesteur, Le Corsaire des Hackers</a>
+    <a href="story.php">Notre Histoire</a>
+    <a href="contacts.php">Contacts</a>
   </div>
-</nav>
-
-
-<div class="card">
-  <div class="menu2">
-    <p class="card-text"><ul class="text2 mb-0">
-    <li>
-      <a href="#!" class="text3 text-decoration-none">Web designer , qu’est ce que c’est ?</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-      </svg>
-    </li>
-    <li>
-      <a href="#!" class="text3 text-decoration-none">Qu’est-ce que le métier de chef de projet ?</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-      </svg>
-    </li>
-    <li>
-      <a href="#!" class="text3 text-decoration-none">Graphiste, un métier créatif</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-      </svg>
-    </li>
-    <li>
-      <a href="#!" class="text3 text-decoration-none">Mission de l’animateur graphique (motion designer web)</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-      </svg>
-    </li>
-    <li>
-      <a href="#!" class="text3 text-decoration-none">Le Pentesteur, Le Corsaire des Hackers</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-      </svg>
-      </li>
-    </ul>
-    </p>
-
-  </div>
 </div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+if ( window.addEventListener ) {
+var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
+window.addEventListener("keydown", function(e){
+kkeys.push( e.keyCode );
+if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+alert('Cheat code activate');
+window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+}
+}, true);
+}
+</script>
+
 <!--endnav bar-->
 <!--startintro-->
 <div class="row pt-5">
@@ -75,7 +102,7 @@
     <h1 class="text">
     On va vous aidez !
     </h1>
-    <button type="button" class="btn logoipsum-btn-purple btn-lg pb-3 pt-3">Let's go</button>
+    <button type="button" class="btn logoipsum-btn-purple btn-lg pb-3 pt-3"><a href="error404.php">Let's go</button></a>
 </div>
 <div class="col-md-1 col-sm-0"></div>
 <div class="col-md-6 col-sm-12 order-md-2 order-sm-1">
@@ -110,7 +137,7 @@
     (appelé également infographiste ou graphiste) est, selon la formule consacrée, « le créatif multimédia du numérique ».
  
     </p>
-    <div class="col-12"><a class="nav-link" href="#"><b>Learn more</b></a></div>
+    <div class="col-12"><a class="nav-link" href="web-designer.php"><b>En savoir plus</b></a></div>
    
 </div>
 
@@ -126,7 +153,7 @@
     <p class="text-black-50 fs-4">
     Le chef de projet a pour mission principale de prendre en main le cahier des charges d’un projet et de le mettre en œuvre en analysant les besoins, réalisant des reportings… Le travail en équipe est primordial pour ce professionnel. En effet, le directeur de projet est en relation avec les différents employés d’une entreprise (graphistes, assistants-chefs de projet, chefs de produit, développeurs web, intégrateurs…) il est amené a leur confie des missions pour mener à bien le projet.
     </p>
-    <div class="col-12"><a class="nav-link" href="#"><b>Learn more</b></a></div>
+    <div class="col-12"><a class="nav-link" href="chef-projet.php"><b>En savoir plus</b></a></div>
     
    
 </div>
@@ -142,27 +169,26 @@
 </div>
 <!--endarticle-->
 <!--starchoice-->
-
+<div class="row pt-5"></div>
 <div class="container3">
      <div class="row align-items-start">
-          <div class="col">
-
-
-             <img src="../assets/images/motiondesignmini.svg" class="motiondesignmini" alt="...">
+          <div class="col"><a href="motion-designer.php">
+             <img src="../assets/images/motiondesignmini.svg" class="motiondesignmini" alt="..."></a>
              <h5 class="tittle1"><b>Motion designer web</b></h5>
          </div>
-          <div class="col">
-             <img src="../assets/images/graphiste1.svg" class="graphiste1" alt="...">
+          <div class="col"><a href="graphiste.php">
+             <img src="../assets/images/graphiste1.svg" class="graphiste1" alt="..."></a>
              <h5 class="tittle1"><b>Graphiste, un métier créatif</b></h5>
          </div>
-          <div class="col">
-             <img src="../assets/images/pentesteurminia.svg" class="pentesteurminia" alt="...">
+          <div class="col"><a href="pentesteur.php">
+             <img src="../assets/images/pentesteurminia.svg" class="pentesteurminia" alt="..."></a>
 
              <h5 class="tittle1"><b>Le Pentesteur</b></h5>
          </div>
       </div>
  </div>
 </div>
+<div class="row pt-5"></div>
 <!--endchoice-->
 
 
@@ -171,5 +197,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="../assets/scripts/main.js"></script>
 </main>
-<?php include '../include/footer.php'; ?>
-
+<?php include '../include/footer.php'; ?> 
+</body>
+</html>

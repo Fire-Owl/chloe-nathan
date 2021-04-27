@@ -1,4 +1,4 @@
-<?php include '../includes/header.php'; ?>
+<?php include '../include/header.php'; ?>
 
 
 
@@ -25,7 +25,7 @@ En liaison étroite avec le chef de projet et le webmaster, le webdesigner parti
                  <p class="my-5">Ce travail a un seul et unique but : capter l’attention des visiteurs et leur permettre de naviguer dans le site dans les meilleures conditions de compréhension et de vitesse. </p>
                  <p class="my-5">Directeur artistique, le webdesigner choisit le style et la place des visuels, le type et les tailles des typographies, agence et mélange les couleurs, conçoit les éventuelles animations pour permettre la meilleure hiérarchisation des éléments possibles…</p>
 
-                 <img src="/projet-binome/assets/images/pictures/webdesigner-2.png" alt="" class="mx-auto d-block img-fluid" >
+                 <img src="../assets/images/pictures/webdesigner-2.png" alt="" class="mx-auto d-block img-fluid" >
 
                  <h2 class="fw-bolder my-5">Prérequis :</h2>
 
@@ -37,7 +37,7 @@ Il faut donc avoir des qualités relationnelles, être curieux, patient, et savo
                  </ul>
 
 
-                 <img src="/projet-binome/assets/images/pictures/webdesigner-3.png" alt="" class="mx-auto d-block img-fluid" >
+                 <img src="../assets/images/pictures/webdesigner-3.png" alt="" class="mx-auto d-block img-fluid" >
 
                 <h2 class="fw-bolder my-5">Évolution :</h2>
 
@@ -68,4 +68,4 @@ A moins qu’il soit à l’aise dans la coordination, le management, et évolue
 
 
 
-<?php include '../includes/footer.php'; ?>
+<?php include '../include/footer.php'; ?>

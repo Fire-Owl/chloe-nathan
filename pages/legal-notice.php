@@ -1,11 +1,9 @@
 <?php include '../include/header.php'; ?>
-<main class="container-acc">
-<div class="d-flex justify-content-center">
-<img src="../assets/images/logo.svg" class="logopage" alt="..."> 
-</div>
+<div class ="container">
+
 <div class="row pt-5">
 
-<div class="col-md-5 col-sm-12 order-md-2 order-sm-2">
+<div class=" order-md-2 order-sm-2">
     <h1 class="Coeurwebtitle">
     Mention légales
     </h1>
@@ -192,6 +190,6 @@ Droit d’auteurs:
 
 
 
-
+</div>
  </main>
 <?php include '../include/footer.php'; ?>

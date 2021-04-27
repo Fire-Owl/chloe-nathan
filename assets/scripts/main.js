@@ -1,17 +1,9 @@
-const carte = document.querySelector('.card')
-const titre5 = document.querySelector('.card-title');
-const btnPlay = document.querySelector('.btnPlay');
-
-
-const TL1 = new TimelineMax({paused: true});
-
-TL1
-.from(carte,0.6,{opacity:0, x: -100})
-.from(titre5, 0.6,{opacity:0, x:-100}, '-=0.3')
-
-
-btnPlay.addEventListener('click', () => {
-TL1.play();
-})
-
-
+/* Open when someone clicks on the span element */
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  /* Close when someone clicks on the "x" symbol inside the overlay */
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }

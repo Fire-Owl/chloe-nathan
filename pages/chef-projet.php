@@ -1,4 +1,4 @@
-<?php include '../includes/header.php'; ?>
+<?php include '../include/header.php'; ?>
 
 
 <main class="mt-5">
@@ -11,13 +11,13 @@
                 </svg>
                 </a>
 
-                <img src="/projet-binome/assets/images/pictures/chef-projet-1.png" alt="" class="mx-auto d-block img-fluid" >
+                <img src="../assets/images/pictures/chef-projet-1.png" alt="" class="mx-auto d-block img-fluid" >
                 
                  <p class="my-5">Le chef de projet a pour mission principale de prendre en main le cahier des charges d’un projet et de le mettre en œuvre en analysant les besoins, réalisant des reportings… Le travail en équipe est primordial pour ce professionnel. En effet, le directeur de projet est en relation avec les différents employés d’une entreprise (graphistes, assistants-chefs de projet, chefs de produit, développeurs web, intégrateurs…) il est amené a leur confie des missions pour mener à bien le projet.</p>
                 
                  <h1 class="fw-bolder text-center my-5">Mais alors qu’est-ce qu’un chef de projet numerique ?</h1>
 
-                 <img src="/projet-binome/assets/images/pictures/chef-projet-2.png" alt="" class="mx-auto d-block img-fluid" >
+                 <img src="../assets/images/pictures/chef-projet-2.png" alt="" class="mx-auto d-block img-fluid" >
 
                  <p class="my-5">Le Chef de Projet Numérique est le coordinateur de l’ensemble des étapes relatives à la réalisation d’un projet internet ou mobile : généralement sur des projets de sites web ou d’applications mobiles. Mais il peut également intervenir sur bien d’autres projets comme des bases de données, du brand content, de la création de contenu, du référencement, des programmes d’affiliation, ou encore toute spécificité du secteur du webmarketing… Ce chef d’orchestre polyvalent fait le lien entre les différentes équipes de l’entreprise dans laquelle il est en poste et les partenaires externes au projet.
 </p>
@@ -101,4 +101,4 @@
 
 
 
-<?php include '../includes/footer.php'; ?>
+<?php include '../include/footer.php'; ?>
