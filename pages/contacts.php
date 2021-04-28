@@ -10,6 +10,33 @@
                 </svg>
                 </a>
 </div>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card1">
+      <div class="card-body">
+      <h1>Chloé</h1>
+                <ul>
+                    <li>0681******</a></li>
+                    <li><a href="mailto:c.vauthier@codeur.onine">c.vauthier@codeur.online</a></li>
+                    <li><a href="https://github.com/chloevth"target="_blank">github.com/chloevth</a></li>
+                    <li><a href="http://chloevauthier.com/"target="_blank">chloevauthier.com/</a></li>
+                </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card1">
+      <div class="card-body">
+      <h1>Nathan</h1>
+                <ul>
+                    <li>0664******</li>
+                    <li><a href="mailto:n.boutaud@codeur.online">n.boutaud@codeur.online</a></li>
+                    <li><a href="https://github.com/nathbout2"target="_blank">github.com/nathbout2</a></li>
+                </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
