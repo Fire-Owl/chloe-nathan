@@ -84,7 +84,7 @@ var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
 window.addEventListener("keydown", function(e){
 kkeys.push( e.keyCode );
 if ( kkeys.toString().indexOf( konami ) >= 0 ) {
-alert('Cheat code activate');
+alert('Rick Astley mode activate');
 window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 }
 }, true);
@@ -106,10 +106,7 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 </div>
 <div class="col-md-1 col-sm-0"></div>
 <div class="col-md-6 col-sm-12 order-md-2 order-sm-1">
-
-
     <img src="../assets/images/Lost.svg" class ="imagetext">
-
 </div>
 
 </div>
