@@ -48,7 +48,7 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
     <h1 class="text">
     On va vous aidez !
     </h1>
-    <a href="web-designer.php"><button type="button" class="btn logoipsum-btn-purple btn-lg pb-3 pt-3">Let's go</button></a>
+    <a href="web-designer.php" id="pages"><button type="button" class="btn logoipsum-btn-purple btn-lg pb-3 pt-3">Let's go</button></a>
 
     <a class="btn fw-bold text-white text-center" id="btn-error" href="index.php" role="button">ACCUEIL</a>
     
