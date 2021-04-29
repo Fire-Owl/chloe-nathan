@@ -9,3 +9,6 @@ function openNav() {
   }
   const consolecss = 'font-family: monospace; padding: 0 10px;font-size: 16px;color: white; background-image: linear-gradient(to left, violet, indigo, blue, green, gold, orange, red); background-repeat: no-repeat;';
 	console.log("%cWeLcOmE hAcKeRz! Do YoU KnOw ThE KoNaMi CoDe ? 🤫...", consolecss);
+
+
+  
