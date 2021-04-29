@@ -106,7 +106,10 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 </div>
 <div class="col-md-1 col-sm-0"></div>
 <div class="col-md-6 col-sm-12 order-md-2 order-sm-1">
+
+
     <img src="../assets/images/Lost.svg" class ="imagetext">
+
 </div>
 
 </div>
