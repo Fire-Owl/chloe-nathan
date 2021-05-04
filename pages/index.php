@@ -42,12 +42,13 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 <div class="row pt-5">
 
 <div class="col-md-5 col-sm-12 order-md-1 order-sm-2">
-    <h1 class="coeurwebtitle fw-bolder">Les métiers Web, pas toujours facile de s’y retrouver !</h1>
-    <h2 class="text fw-bold">On va vous aider !</h2>
-    <a href="web-designer.php" id="pages"><button type="button" class="btn logoipsum-btn-purple btn-lg pb-3 pt-3">Let's go</button></a>
-
-    <a class="btn fw-bold text-white text-center" id="btn-error" href="index.php" role="button">ACCUEIL</a>
-    
+    <h1 class="Coeurwebtitle">
+    Les metiers Web, pas toujours facile de s’y retrouver! 
+    </h1>
+    <h1 class="text">
+    On va vous aidez !
+    </h1>
+    <button type="button" class="btn logoipsum-btn-purple btn-lg pb-3 pt-3"><a class="nav-link3" href="error-404.php">Let's go</button></a>
 </div>
 <div class="col-md-1 col-sm-0"></div>
 <div class="col-md-6 col-sm-12 order-md-2 order-sm-1">
