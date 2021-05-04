@@ -1,7 +1,6 @@
 <?php include '../include/header.php'; ?>
 
-</head>
-<body>
+<!-- Navigation -->
 
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -37,17 +36,14 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 }
 </script>
 
-<!--endnav bar-->
-<!--startintro-->
+<!--Fin Navivation -->
+
+<!-- Intro -->
 <div class="row pt-5">
 
 <div class="col-md-5 col-sm-12 order-md-1 order-sm-2">
-    <h1 class="Coeurwebtitle">
-    Les metiers Web, pas toujours facile de s’y retrouver! 
-    </h1>
-    <h1 class="text">
-    On va vous aidez !
-    </h1>
+    <h1 class="coeurwebtitle fw-bolder">Les métiers Web, pas toujours facile de s’y retrouver !</h1>
+    <h2 class="text fw-bold">On va vous aider !</h2>
     <a href="web-designer.php" id="pages"><button type="button" class="btn logoipsum-btn-purple btn-lg pb-3 pt-3">Let's go</button></a>
 
     <a class="btn fw-bold text-white text-center" id="btn-error" href="index.php" role="button">ACCUEIL</a>
@@ -76,9 +72,9 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 </div>
 
 <div class="col-md-5 col-sm-12 order-md-2 order-sm-2">
-    <h1 class="Coeurwebtitle">
+    <h2 class="coeurwebtitle fw-bolder">
     Web designer, qu’est ce que c’est ?
-    </h1>
+    </h2>
     <p class="text-black-50 fs-4">
     Le webdesigner est un de ces métiers qui n’existaient pas il y a 20 ans.
     Son rôle ?
@@ -96,9 +92,9 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 <div class="row pt-5">
 
 <div class="col-md-5 col-sm-12 order-md-1 order-sm-2">
-    <h1 class="Coeurwebtitle">
+    <h2 class="coeurwebtitle fw-bolder">
     Qu’est-ce que le métier de chef de projet ?
-    </h1>
+    </h2>
     <p class="text-black-50 fs-4">
     Le chef de projet a pour mission principale de prendre en main le cahier des charges d’un projet et de le mettre en œuvre en analysant les besoins, réalisant des reportings… Le travail en équipe est primordial pour ce professionnel. En effet, le directeur de projet est en relation avec les différents employés d’une entreprise (graphistes, assistants-chefs de projet, chefs de produit, développeurs web, intégrateurs…) il est amené a leur confie des missions pour mener à bien le projet.
     </p>
@@ -143,9 +139,5 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-    <script src="../assets/scripts/main.js"></script>
-</main>
 <?php include '../include/footer.php'; ?> 
-</body>
-</html>
+

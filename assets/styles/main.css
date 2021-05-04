@@ -1,22 +1,19 @@
-
 @font-face {
         font-family: 'MyriadPro';
-        src: url('/projet-binome/assets/fonts/MYRIADPRO-REGULAR.woff');
+        src: url('../fonts/MYRIADPRO-REGULAR.woff');
 }
 
 body {
-    font-family: "MyriadPro", sans-serif;
+    font-family: "MYRIADPRO-REGULAR", sans-serif;
     color: black;
 }
 
 .logopage{
-    width: 200px;
+    width: 12vw;
 }
 .text{
     color:#EC6258;
-    font-weight: bold;
     font-size: 5rem;
-
 }
 .logoipsum-btn-purple, .logoipsum-btn-purple:hover{
     background-color: #00B4F5;
@@ -47,12 +44,9 @@ body {
     margin-top: 20px;
 }
 
-.Coeurwebtitle{
+.coeurwebtitle{
     font-size: 4.3rem;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: bold;
 }
-
 
 .container3{
     text-align: center;
