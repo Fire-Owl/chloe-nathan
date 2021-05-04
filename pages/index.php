@@ -102,7 +102,7 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
     <h1 class="text">
     On va vous aidez !
     </h1>
-    <button type="button" class="btn logoipsum-btn-purple btn-lg pb-3 pt-3"><a href="error-404.php">Let's go</button></a>
+    <button type="button" class="btn logoipsum-btn-purple btn-lg pb-3 pt-3"><a class="nav-link3" href="error-404.php">Let's go</button></a>
 </div>
 <div class="col-md-1 col-sm-0"></div>
 <div class="col-md-6 col-sm-12 order-md-2 order-sm-1">
