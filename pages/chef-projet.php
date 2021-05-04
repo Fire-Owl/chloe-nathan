@@ -1,6 +1,5 @@
 <?php include '../include/header.php'; ?>
 
-
 <main class="mt-5">
 
     <div class="container my-5">
@@ -51,7 +50,6 @@
 
 
                 <ul>
-
                     <li>Master pro conduite de projets, métiers du livre et du multimédia (Clermont-Ferrand);</li>
                     <li>Master pro conseil éditorial et gestion des connaissances numériques (Paris 4) ;</li>
                     <li>Master pro édition contemporaine numérique (Brest) </li>
@@ -78,12 +76,6 @@
                 <p class="my-5">Il peut travailler dans une entreprise web et être chargé de différents projets à la suite. Il peut-être également  prestataire et travailler sur les projets d’entreprises clientes. Mais il est également possible de travailler en tant que free-lance et de mener ainsi plusieurs projets de front.
 </p>
 
-            
-
-
-     
-
-           
 
 
         </div>

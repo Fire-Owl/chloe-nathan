@@ -1,61 +1,6 @@
 <?php include '../include/header.php'; ?>
-<style>
-body {
-  font-family: 'Lato', sans-serif;
-}
 
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
-}
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: start;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
-}
-</style>
-</head>
-<body>
+<!-- Navigation -->
 
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -91,8 +36,9 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 }
 </script>
 
-<!--endnav bar-->
-<!--startintro-->
+<!--Fin Navivation -->
+
+<!-- Intro -->
 <div class="row pt-5">
 
 <div class="col-md-5 col-sm-12 order-md-1 order-sm-2">
@@ -127,9 +73,9 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 </div>
 
 <div class="col-md-5 col-sm-12 order-md-2 order-sm-2">
-    <h1 class="Coeurwebtitle">
+    <h2 class="coeurwebtitle fw-bolder">
     Web designer, qu’est ce que c’est ?
-    </h1>
+    </h2>
     <p class="text-black-50 fs-4">
     Le webdesigner est un de ces métiers qui n’existaient pas il y a 20 ans.
     Son rôle ?
@@ -147,9 +93,9 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 <div class="row pt-5">
 
 <div class="col-md-5 col-sm-12 order-md-1 order-sm-2">
-    <h1 class="Coeurwebtitle">
+    <h2 class="coeurwebtitle fw-bolder">
     Qu’est-ce que le métier de chef de projet ?
-    </h1>
+    </h2>
     <p class="text-black-50 fs-4">
     Le chef de projet a pour mission principale de prendre en main le cahier des charges d’un projet et de le mettre en œuvre en analysant les besoins, réalisant des reportings… Le travail en équipe est primordial pour ce professionnel. En effet, le directeur de projet est en relation avec les différents employés d’une entreprise (graphistes, assistants-chefs de projet, chefs de produit, développeurs web, intégrateurs…) il est amené a leur confie des missions pour mener à bien le projet.
     </p>
@@ -194,9 +140,5 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-    <script src="../assets/scripts/main.js"></script>
-</main>
 <?php include '../include/footer.php'; ?> 
-</body>
-</html>
+
