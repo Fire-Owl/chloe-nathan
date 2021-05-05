@@ -46,7 +46,7 @@ window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
     Les metiers Web, pas toujours facile de s’y retrouver! 
     </h1>
     <h1 class="text">
-    On va vous aidez !
+    On va vous aider !
     </h1>
     <button type="button" class="btn logoipsum-btn-purple btn-lg pb-3 pt-3"><a class="nav-link3" href="error-404.php">Let's go</button></a>
 </div>
